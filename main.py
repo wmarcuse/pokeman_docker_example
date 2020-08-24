@@ -1,5 +1,5 @@
 from pokeman import Pokeman, ConnectionParameters, Exchange, Queue, RoutingKey
-from pokeman import BasicMessage, Ptypes
+from pokeman.coatings import BasicMessage, Ptypes
 
 
 # Always, first declare the Pokeman
