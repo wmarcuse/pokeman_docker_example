@@ -1,0 +1,35 @@
+[[package]]
+category = "main"
+description = "Pika Python AMQP Client Library"
+name = "pika"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[package.extras]
+tornado = ["tornado"]
+twisted = ["twisted"]
+
+[[package]]
+category = "main"
+description = "Pokeman RabbitMQ Service Choreography Library"
+name = "pokeman"
+optional = false
+python-versions = "*"
+version = "0.1.12"
+
+[package.dependencies]
+pika = "*"
+
+[metadata]
+content-hash = "4ceab3b61d68600f56b9b320bc16af08e213beed8f706c6b2d242a7b70807627"
+python-versions = "^3.7"
+
+[metadata.files]
+pika = [
+    {file = "pika-1.1.0-py2.py3-none-any.whl", hash = "sha256:4e1a1a6585a41b2341992ec32aadb7a919d649eb82904fd8e4a4e0871c8cf3af"},
+    {file = "pika-1.1.0.tar.gz", hash = "sha256:9fa76ba4b65034b878b2b8de90ff8660a59d925b087c5bb88f8fdbb4b64a1dbf"},
+]
+pokeman = [
+    {file = "pokeman-0.1.12.tar.gz", hash = "sha256:032a112405c59a96de29bd4798e0163ea8c4b1df2bcd755f6ab2441781777188"},
+]
